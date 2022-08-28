@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Dosis";
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url("../../assets/images/main.bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+
+.flex-box > * {
+  margin-right: 8px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 100px;
+  height: inherit;
+}
+
+#content-box {
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  color: var(--text);
+  width: 500px;
+  font-size: 20px;
+  border-left: solid 5px var(--primary);
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #content-box {
+    top: auto;
+    bottom: 30px;
+    left: 30px;
+    width: 80%;
+  }
+  .logo {
+    top: 10px;
+    bottom: auto;
+    right: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Fazel Kazempour",
+  "theme": {
+    "primary": "#4D77FF",
+    "text": "white"
+  },
+  "content": {
+    "name": {
+      "text": "Fazel Kazempour",
+      "style": {
+        "fontFamily": "Bernard",
+        "fontSize": "52px",
+        "marginBottom": "30px"
+      }
+    },
+    "bio": {
+      "text": "I'm a designer, developer and creative based in Tehran,IRI.</br>I appreciate both the beauty of art and the attraction of technology so I strive to blend these two elements to create my dreams."
+    },
+    "resume": {
+      "text": "Download CV",
+      "link": "./content/resume.pdf"
+    }
+  },
+  "links": {
+    "phone": "+98 9307606000",
+    "email": "kazem1999fazel@hotmail.com",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/kfazel/",
+      "github": "https://github.com/KFazelp",
+      "telegram": "https://t.me/kfazel",
+      "whatsapp": "https://wa.me/989213785598",
+      "instagram": "https://www.instagram.com/kfazel/"
+    }
+  }
+}
